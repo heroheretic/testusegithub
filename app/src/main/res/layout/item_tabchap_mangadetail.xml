@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#27232b"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#27232b"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/txtchapname_detailmanga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chap 1"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:textSize="25dp"
+            />
+        <Button
+            android:id="@+id/btview_detailmanga"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="Read"
+            android:textAllCaps="false"
+            android:background="@drawable/button_shape_chaptab"
+            />
+        <Button
+            android:id="@+id/btdownload_detailmanga"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@+id/btview_detailmanga"
+            android:layout_marginRight="2dp"
+            android:textAllCaps="false"
+            android:text="Download"
+            android:background="@drawable/button_shape_chaptab"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFFF"
+        />
+</LinearLayout>

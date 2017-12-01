@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3e7cc0ea"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chế Độ Màn Hình"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <RadioGroup
+        android:id="@+id/radiogroup_screenmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+        <RadioButton
+            android:id="@+id/checkbox_defaultmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mặc Định"
+            android:textSize="20dp"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/checkbox_horizontalmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Màn Hình Ngang"
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/checkbox_verticalmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Màn Hình dọc"
+            android:textSize="20dp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btaccept_screenmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="OK"
+        android:textColor="#e730bf"
+        android:background="#3e7cc0ea"
+        />
+</LinearLayout>

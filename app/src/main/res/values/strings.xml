@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TruyenApp</string>
+    <string name="tablefttext">Last Update</string>
+    <string name="tabrighttext">Hot Manga</string>
+    <string name="category">Category</string>
+    <string name="download">Download</string>
+    <string name="favorite">Favorite</string>
+</resources>

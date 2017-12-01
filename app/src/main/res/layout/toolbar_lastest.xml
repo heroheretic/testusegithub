@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:gravity="center"
+              android:padding="5dp"
+              android:orientation="horizontal">
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:paddingTop="2.5dp"
+                  android:paddingBottom="2.5dp"
+                  android:paddingLeft="5dp"
+                  android:paddingRight="5dp"
+                  android:orientation="horizontal" android:background="@drawable/tabroundshape">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/tablefttext"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"
+                  android:id="@+id/lastupdate"
+                  android:textColor="@color/tabselectedtext"
+                  android:background="@drawable/tableft"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/tabrighttext"
+                  android:textStyle="bold"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"
+                  android:textSize="18dp"
+                  android:id="@+id/hotmanga"
+                  android:textColor="@color/tabtext"
+                  android:background="@drawable/tabright"/>
+    </LinearLayout>
+
+</LinearLayout>
